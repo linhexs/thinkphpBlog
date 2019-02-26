@@ -1,0 +1,79 @@
+{include file="public/header"}
+<style>
+  pre{
+    background:#f0f0f0;
+  }
+@media only screen and (max-width: 479px) {
+p img { height: 100%; width: 300px }
+}
+</style>
+<article>
+  <div class="infos">
+    <div class="newsview">
+      <h2 class="intitle">您现在的位置是：<a href="/">网站首页</a>&nbsp;&gt;&nbsp;<a href="/">学无止境</a>&nbsp;&gt;&nbsp;<a href="{:url('article/lists',['id'=>$resByInfo.art_pid])}">{$menuName[$resByInfo.art_pid]}</a></h2>
+      <h3 class="news_title">  {$resByInfo.art_title}</h3>
+      <div class="news_author"><span class="au01">  {$resByInfo.art_author}</span><span class="au02"> {$resByInfo.art_addtime|date="y-m-d",###}</span><span class="au03">共<b>{$resByInfo.art_hit}</b>人围观</span></div>
+      <br>
+      <input type="hidden" name="art_id" value="{$resByInfo.art_id}">
+      {$resByInfo.art_content}
+    </div>
+  </div>
+  <div class="nextinfo">
+    <?php if($front):?>
+    <p>上一篇：<a href="{:url('detail/index',['id'=>$front.art_id])}" >{$front.art_title}</a></p>
+    <?php else:?>
+    <p>上一篇：<a href="/" >没有了！！！</a></p>
+    <?php endif;?>
+    <?php if($after):?>
+    <p>下一篇：<a href="{:url('detail/index',['id'=>$after.art_id])}">{$after.art_title}</a></p>
+    <?php else:?>
+    <p>下一篇：<a href="/" >没有了！！！</a></p>
+    <?php endif;?>
+  </div>
+<!--  <div class="otherlink">
+    <h2>相关文章</h2>
+    <ul>
+      <li><a href="/" title="云南之行——丽江古镇玉龙雪山">云南之行——丽江古镇玉龙雪山</a></li>
+      <li><a href="/" title="云南之行——大理洱海一日游">云南之行——大理洱海一日游</a></li>
+      <li><a href="/" target="_blank">住在手机里的朋友</a></li>
+      <li><a href="/" target="_blank">豪雅手机正式发布! 在法国全手工打造的奢侈品</a></li>
+      <li><a href="/" target="_blank">教你怎样用欠费手机拨打电话</a></li>
+      <li><a href="/" target="_blank">原来以为，一个人的勇敢是，删掉他的手机号码...</a></li>
+    </ul>
+  </div>-->
+  <div class="news_pl">
+    <h2>文章评论</h2>
+    <div id="SOHUCS" ></div>
+    <script type="text/javascript">
+        (function(){
+            var appid = 'cytLkfdXm';
+            var conf = 'prod_c677ae66223d8b8c67890f95a142453d';
+            var width = window.innerWidth || document.documentElement.clientWidth;
+            if (width < 960) {
+                window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="http://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>'); } else { var loadJs=function(d,a){var c=document.getElementsByTagName("head")[0]||document.head||document.documentElement;var b=document.createElement("script");b.setAttribute("type","text/javascript");b.setAttribute("charset","UTF-8");b.setAttribute("src",d);if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}c.appendChild(b)};loadJs("http://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); } })();
+    </script>
+  </div>
+
+</article>
+<script>
+  var SCOPE = {
+      updateView : "{:url('detail/updateView')}"
+  }
+</script>
+<script>
+  $(document).ready(function () {
+      $.ajax({
+          url:SCOPE.updateView,
+          type:'POST',
+          data:{
+              id:$("input[name=art_id]").val()
+          },
+          dataType:'json',
+          success:function( res ){
+          }
+      });
+  })
+</script>
+
+
+{include file="public/footer"}

@@ -1,0 +1,224 @@
+[ 2019-02-08T01:06:15+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.006140s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.005586s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_id`  desc LIMIT 10 [ RunTime:0.010284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.008871s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id asc [ RunTime:0.003333s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.254198s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.023240s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` WHERE  `ban_view` = 1 ORDER BY `ban_Id`  desc LIMIT 2 [ RunTime:0.031282s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.036734s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.028530s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T03:56:25+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.014233s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.010497s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 3 ORDER BY art_id desc LIMIT 1 [ RunTime:0.045334s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<3 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.032019s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>3 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.080333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.038303s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.038726s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T04:18:09+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.039053s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.005832s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 21 ORDER BY art_id desc LIMIT 1 [ RunTime:0.012668s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<21 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.010667s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>21 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.010332s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.004531s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.010308s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T04:18:15+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.072094s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.005488s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 21 LIMIT 1 [ RunTime:0.012462s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=50  WHERE  `art_id` = 21 [ RunTime:0.024434s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T06:26:31+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.013005s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.002463s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 18 ORDER BY art_id desc LIMIT 1 [ RunTime:0.011876s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<18 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.012614s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>18 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.003898s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.001943s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.008493s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T06:26:33+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.015550s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.022160s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 18 LIMIT 1 [ RunTime:0.009825s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=106  WHERE  `art_id` = 18 [ RunTime:0.033285s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T14:22:40+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.050993s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.006228s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 22 ORDER BY art_id desc LIMIT 1 [ RunTime:0.039574s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<22 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.001148s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>22 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.003672s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.012319s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T14:22:45+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.007227s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.001769s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 22 LIMIT 1 [ RunTime:0.001383s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=54  WHERE  `art_id` = 22 [ RunTime:0.007815s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T14:22:55+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.011912s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.009870s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 22 LIMIT 1 [ RunTime:0.003921s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=55  WHERE  `art_id` = 22 [ RunTime:0.031351s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T19:31:26+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.027489s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.030307s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_id`  desc LIMIT 10 [ RunTime:0.028241s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.014105s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id asc [ RunTime:0.003118s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.228964s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.020029s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` WHERE  `ban_view` = 1 ORDER BY `ban_Id`  desc LIMIT 2 [ RunTime:0.005931s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.003916s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.010798s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T19:31:34+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.023044s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.006302s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.007916s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.024681s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0  AND `menu_view` = 1 [ RunTime:0.007757s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.006578s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` WHERE  `art_pid` = 1 LIMIT 1 [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_pid` = 1 ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.426096s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T19:31:37+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.036180s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.015637s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 21 ORDER BY art_id desc LIMIT 1 [ RunTime:0.016903s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<21 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.003560s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>21 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.009203s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.004841s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.002845s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T19:31:38+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.031392s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.004771s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 21 LIMIT 1 [ RunTime:0.003755s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=51  WHERE  `art_id` = 21 [ RunTime:0.034618s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T19:42:58+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.017787s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.009511s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_id`  desc LIMIT 10 [ RunTime:0.004732s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.003309s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id asc [ RunTime:0.008276s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.224362s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.006232s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` WHERE  `ban_view` = 1 ORDER BY `ban_Id`  desc LIMIT 2 [ RunTime:0.011749s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.002675s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.003266s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T19:43:08+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.036084s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.008291s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.007064s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.015611s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0  AND `menu_view` = 1 [ RunTime:0.014966s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.013887s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` WHERE  `art_pid` = 1 LIMIT 1 [ RunTime:0.002518s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_pid` = 1 ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.463849s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T19:43:11+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.033070s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.007804s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.009340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.009866s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0  AND `menu_view` = 1 [ RunTime:0.003347s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.001755s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` WHERE  `art_pid` = 4 LIMIT 1 [ RunTime:0.023098s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_pid` = 4 ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.033159s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T19:43:13+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.023500s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.006498s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.204944s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.001175s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0  AND `menu_view` = 1 [ RunTime:0.000889s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.003039s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` WHERE  `art_pid` = 2 LIMIT 1 [ RunTime:0.002837s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_pid` = 2 ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.444132s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T19:43:16+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.029315s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.008833s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 15 ORDER BY art_id desc LIMIT 1 [ RunTime:0.015246s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<15 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.003640s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>15 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.003004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.008239s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.009305s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T19:43:16+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.016480s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.009564s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 15 LIMIT 1 [ RunTime:0.009893s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=53  WHERE  `art_id` = 15 [ RunTime:0.034823s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T19:57:31+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.027597s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.010155s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 22 ORDER BY art_id desc LIMIT 1 [ RunTime:0.009558s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<22 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.003258s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>22 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.004234s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.009012s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.001176s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T19:57:31+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.102368s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.007933s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 22 LIMIT 1 [ RunTime:0.010287s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=56  WHERE  `art_id` = 22 [ RunTime:0.033104s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T19:57:44+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.009587s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.009294s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 19 ORDER BY art_id desc LIMIT 1 [ RunTime:0.002681s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<19 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.009741s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>19 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.003654s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.002236s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.025538s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T19:57:45+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.041316s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.005044s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 19 LIMIT 1 [ RunTime:0.008527s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=31  WHERE  `art_id` = 19 [ RunTime:0.032830s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T19:57:56+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.060453s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.002692s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.010458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.009689s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0  AND `menu_view` = 1 [ RunTime:0.002687s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.001735s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` WHERE  `art_pid` = 2 LIMIT 1 [ RunTime:0.008595s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_pid` = 2 ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.002634s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T19:57:59+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.013419s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.027820s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 15 ORDER BY art_id desc LIMIT 1 [ RunTime:0.029830s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<15 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.036367s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>15 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.017252s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.008367s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.009578s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T19:57:59+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.026086s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.008982s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 15 LIMIT 1 [ RunTime:0.003631s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=54  WHERE  `art_id` = 15 [ RunTime:0.025943s ]
+
+---------------------------------------------------------------
+[ 2019-02-08T23:54:25+08:00 ] [ error ] [8]未定义数组索引: id
+
+---------------------------------------------------------------

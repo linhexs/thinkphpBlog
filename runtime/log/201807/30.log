@@ -1,0 +1,4151 @@
+[ 2018-07-30T17:01:55+08:00 ] 127.0.0.1 127.0.0.1 GET /images/t02.jpg
+[ log ] www.blog.com/images/t02.jpg [运行时间：0.121007s][吞吐率：8.26req/s] [内存消耗：2,070.05kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:55+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b05.jpg
+[ log ] www.blog.com/images/b05.jpg [运行时间：0.075004s][吞吐率：13.33req/s] [内存消耗：2,070.11kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:56+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b03.jpg
+[ log ] www.blog.com/images/b03.jpg [运行时间：0.123007s][吞吐率：8.13req/s] [内存消耗：2,070.11kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:56+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b06.jpg
+[ log ] www.blog.com/images/b06.jpg [运行时间：0.141008s][吞吐率：7.09req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:56+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b04.jpg
+[ log ] www.blog.com/images/b04.jpg [运行时间：0.198011s][吞吐率：5.05req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:56+08:00 ] 127.0.0.1 127.0.0.1 GET /images/mb02.jpg
+[ log ] www.blog.com/images/mb02.jpg [运行时间：0.133008s][吞吐率：7.52req/s] [内存消耗：2,070.13kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:56+08:00 ] 127.0.0.1 127.0.0.1 GET /images/wx.jpg
+[ log ] www.blog.com/images/wx.jpg [运行时间：0.100006s][吞吐率：10.00req/s] [内存消耗：2,070.15kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:57+08:00 ] 127.0.0.1 127.0.0.1 GET /articleList-6.html
+[ log ] www.blog.com/articleList-6.html [运行时间：0.090005s][吞吐率：11.11req/s] [内存消耗：4,274.57kb] [文件加载：49]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'article',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/articleList-12.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qldnvuutskb9qm2q7654vtsbp5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '6',
+)
+[ info ] [ RUN ] app\index\controller\Article->lists[ E:\wamp\www\blog\application\index\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/index\view\article\lists.html [ array (
+  0 => 'resByMenu',
+  1 => 'resByList',
+  2 => 'menuName',
+  3 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0  AND `menu_view` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_pid` = 6 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:57+08:00 ] 127.0.0.1 127.0.0.1 GET /images/t02.jpg
+[ log ] www.blog.com/images/t02.jpg [运行时间：0.074005s][吞吐率：13.51req/s] [内存消耗：2,070.11kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:57+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b03.jpg
+[ log ] www.blog.com/images/b03.jpg [运行时间：0.134007s][吞吐率：7.46req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:57+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b05.jpg
+[ log ] www.blog.com/images/b05.jpg [运行时间：0.165009s][吞吐率：6.06req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:57+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b06.jpg
+[ log ] www.blog.com/images/b06.jpg [运行时间：0.177010s][吞吐率：5.65req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:58+08:00 ] 127.0.0.1 127.0.0.1 GET /images/wx.jpg
+[ log ] www.blog.com/images/wx.jpg [运行时间：0.146008s][吞吐率：6.85req/s] [内存消耗：2,070.13kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:58+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b04.jpg
+[ log ] www.blog.com/images/b04.jpg [运行时间：0.222012s][吞吐率：4.50req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:58+08:00 ] 127.0.0.1 127.0.0.1 GET /images/mb02.jpg
+[ log ] www.blog.com/images/mb02.jpg [运行时间：0.220012s][吞吐率：4.55req/s] [内存消耗：2,070.13kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:59+08:00 ] 127.0.0.1 127.0.0.1 GET /articleList-7.html
+[ log ] www.blog.com/articleList-7.html [运行时间：0.099005s][吞吐率：10.10req/s] [内存消耗：4,282.48kb] [文件加载：49]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'article',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/articleList-6.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qldnvuutskb9qm2q7654vtsbp5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Article->lists[ E:\wamp\www\blog\application\index\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/index\view\article\lists.html [ array (
+  0 => 'resByMenu',
+  1 => 'resByList',
+  2 => 'menuName',
+  3 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0  AND `menu_view` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_pid` = 7 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:59+08:00 ] 127.0.0.1 127.0.0.1 GET /images/t02.jpg
+[ log ] www.blog.com/images/t02.jpg [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,070.11kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:59+08:00 ] 127.0.0.1 127.0.0.1 GET /images/mb02.jpg
+[ log ] www.blog.com/images/mb02.jpg [运行时间：0.160009s][吞吐率：6.25req/s] [内存消耗：2,070.13kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:59+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b06.jpg
+[ log ] www.blog.com/images/b06.jpg [运行时间：0.194011s][吞吐率：5.15req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:59+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b03.jpg
+[ log ] www.blog.com/images/b03.jpg [运行时间：0.195012s][吞吐率：5.13req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:59+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b04.jpg
+[ log ] www.blog.com/images/b04.jpg [运行时间：0.198012s][吞吐率：5.05req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:59+08:00 ] 127.0.0.1 127.0.0.1 GET /images/wx.jpg
+[ log ] www.blog.com/images/wx.jpg [运行时间：0.115006s][吞吐率：8.70req/s] [内存消耗：2,070.13kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:01:59+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b05.jpg
+[ log ] www.blog.com/images/b05.jpg [运行时间：0.141008s][吞吐率：7.09req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:01+08:00 ] 127.0.0.1 127.0.0.1 GET /articleList-8.html
+[ log ] www.blog.com/articleList-8.html [运行时间：0.142008s][吞吐率：7.04req/s] [内存消耗：4,274.66kb] [文件加载：49]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'article',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/articleList-7.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qldnvuutskb9qm2q7654vtsbp5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '8',
+)
+[ info ] [ RUN ] app\index\controller\Article->lists[ E:\wamp\www\blog\application\index\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/index\view\article\lists.html [ array (
+  0 => 'resByMenu',
+  1 => 'resByList',
+  2 => 'menuName',
+  3 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0  AND `menu_view` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_pid` = 8 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:01+08:00 ] 127.0.0.1 127.0.0.1 GET /images/t02.jpg
+[ log ] www.blog.com/images/t02.jpg [运行时间：0.139008s][吞吐率：7.19req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:01+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b05.jpg
+[ log ] www.blog.com/images/b05.jpg [运行时间：0.125007s][吞吐率：8.00req/s] [内存消耗：2,070.11kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:01+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b06.jpg
+[ log ] www.blog.com/images/b06.jpg [运行时间：0.191011s][吞吐率：5.24req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:01+08:00 ] 127.0.0.1 127.0.0.1 GET /images/mb02.jpg
+[ log ] www.blog.com/images/mb02.jpg [运行时间：0.201012s][吞吐率：4.97req/s] [内存消耗：2,070.13kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:01+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b04.jpg
+[ log ] www.blog.com/images/b04.jpg [运行时间：0.205012s][吞吐率：4.88req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:01+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b03.jpg
+[ log ] www.blog.com/images/b03.jpg [运行时间：0.208012s][吞吐率：4.81req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:01+08:00 ] 127.0.0.1 127.0.0.1 GET /images/wx.jpg
+[ log ] www.blog.com/images/wx.jpg [运行时间：0.128007s][吞吐率：7.81req/s] [内存消耗：2,070.13kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:02+08:00 ] 127.0.0.1 127.0.0.1 GET /articleList-7.html
+[ log ] www.blog.com/articleList-7.html [运行时间：0.127007s][吞吐率：7.87req/s] [内存消耗：4,282.50kb] [文件加载：49]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'article',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/articleList-8.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qldnvuutskb9qm2q7654vtsbp5',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Article->lists[ E:\wamp\www\blog\application\index\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/index\view\article\lists.html [ array (
+  0 => 'resByMenu',
+  1 => 'resByList',
+  2 => 'menuName',
+  3 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0  AND `menu_view` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_pid` = 7 [ RunTime:0.001001s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:02+08:00 ] 127.0.0.1 127.0.0.1 GET /images/mb02.jpg
+[ log ] www.blog.com/images/mb02.jpg [运行时间：0.127007s][吞吐率：7.87req/s] [内存消耗：2,070.13kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:02+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b04.jpg
+[ log ] www.blog.com/images/b04.jpg [运行时间：0.132008s][吞吐率：7.58req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:02+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b03.jpg
+[ log ] www.blog.com/images/b03.jpg [运行时间：0.174010s][吞吐率：5.75req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:02+08:00 ] 127.0.0.1 127.0.0.1 GET /images/t02.jpg
+[ log ] www.blog.com/images/t02.jpg [运行时间：0.237013s][吞吐率：4.22req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:02+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b05.jpg
+[ log ] www.blog.com/images/b05.jpg [运行时间：0.212012s][吞吐率：4.72req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:02+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b06.jpg
+[ log ] www.blog.com/images/b06.jpg [运行时间：0.218013s][吞吐率：4.59req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:02+08:00 ] 127.0.0.1 127.0.0.1 GET /images/wx.jpg
+[ log ] www.blog.com/images/wx.jpg [运行时间：0.078005s][吞吐率：12.82req/s] [内存消耗：2,070.15kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:03+08:00 ] 127.0.0.1 127.0.0.1 GET /jstt/css3/2018-03-26/812.html
+[ log ] www.blog.com/jstt/css3/2018-03-26/812.html [运行时间：0.065003s][吞吐率：15.38req/s] [内存消耗：2,070.77kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:06+08:00 ] 127.0.0.1 127.0.0.1 GET /images/t02.jpg
+[ log ] www.blog.com/images/t02.jpg [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：2,070.11kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:06+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b06.jpg
+[ log ] www.blog.com/images/b06.jpg [运行时间：0.105006s][吞吐率：9.52req/s] [内存消耗：2,070.11kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:06+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b05.jpg
+[ log ] www.blog.com/images/b05.jpg [运行时间：0.130007s][吞吐率：7.69req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:06+08:00 ] 127.0.0.1 127.0.0.1 GET /images/wx.jpg
+[ log ] www.blog.com/images/wx.jpg [运行时间：0.158009s][吞吐率：6.33req/s] [内存消耗：2,070.13kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:19+08:00 ] 127.0.0.1 127.0.0.1 GET /gbook.html
+[ log ] www.blog.com/gbook.html [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：2,070.27kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:20+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b05.jpg
+[ log ] www.blog.com/images/b05.jpg [运行时间：0.079004s][吞吐率：12.66req/s] [内存消耗：2,070.11kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:21+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b06.jpg
+[ log ] www.blog.com/images/b06.jpg [运行时间：0.154009s][吞吐率：6.49req/s] [内存消耗：2,070.00kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:21+08:00 ] 127.0.0.1 127.0.0.1 GET /images/wx.jpg
+[ log ] www.blog.com/images/wx.jpg [运行时间：0.156009s][吞吐率：6.41req/s] [内存消耗：2,070.13kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:41+08:00 ] 127.0.0.1 127.0.0.1 GET /index.html
+[ log ] www.blog.com/index.html [运行时间：0.113007s][吞吐率：8.85req/s] [内存消耗：4,271.49kb] [文件加载：50]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/articleList-7.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/index\view\index\index.html [ array (
+  0 => 'res',
+  1 => 'resBanner',
+  2 => 'menuName',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_id`  desc LIMIT 10 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` WHERE  `ban_view` = 1 ORDER BY `ban_Id`  desc LIMIT 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:41+08:00 ] 127.0.0.1 127.0.0.1 GET /STATIC/home/img/wx.jpg
+[ log ] www.blog.com/STATIC/home/img/wx.jpg [运行时间：0.085004s][吞吐率：11.76req/s] [内存消耗：2,070.23kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:41+08:00 ] 127.0.0.1 127.0.0.1 GET /STATIC/home/img/logo.png
+[ log ] www.blog.com/STATIC/home/img/logo.png [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,070.13kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:49+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-banner-index.html
+[ log ] www.blog.com/Admin-banner-index.html [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：2,070.30kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:51+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-cate-index.html
+[ log ] www.blog.com/Admin-cate-index.html [运行时间：0.044003s][吞吐率：22.73req/s] [内存消耗：2,070.48kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:54+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-system-index.html
+[ log ] www.blog.com/Admin-system-index.html [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：2,070.38kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:02:55+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.blog.com/admin [运行时间：0.074004s][吞吐率：13.51req/s] [内存消耗：2,069.84kb] [文件加载：36]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'think\exception\RouteNotFoundException' not found[E:\wamp\www\blog\framework\library\think\App.php:557]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:03:15+08:00 ] 127.0.0.1 127.0.0.1 GET /admin
+[ log ] www.blog.com/admin [运行时间：0.128007s][吞吐率：7.81req/s] [内存消耗：4,509.79kb] [文件加载：58]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\wamp\www\blog\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\index/index.html [ array (
+  0 => 'a_indexdata',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_comment` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_comment` WHERE  (  com_view = 1 and com_artid != 0 ) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_comment` WHERE  (  com_view= 1 and com_artid = 0 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_member` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_member` LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:03:17+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-system-index.html
+[ log ] www.blog.com/Admin-system-index.html [运行时间：0.118007s][吞吐率：8.47req/s] [内存消耗：4,248.86kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/admin',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\System->index[ E:\wamp\www\blog\application\admin\controller\System.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\system/index.html [ array (
+  0 => 'qq_inc',
+  1 => 'mail_inc',
+  2 => 'systeminfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_system` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_system` LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:03:23+08:00 ] 127.0.0.1 127.0.0.1 POST /Admin-system-basics.html
+[ log ] www.blog.com/Admin-system-basics.html [运行时间：0.229013s][吞吐率：4.37req/s] [内存消耗：4,193.17kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'system',
+    2 => 'basics',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '707',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.blog.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.blog.com/Admin-system-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+  'sys_title' => '青春博客',
+  'sys_title2' => '青春因为爱情而美丽',
+  'sys_keyword' => '青春,爱情,博客,thinkphp,bootstrap3',
+  'sys_createtime' => '2013-12-31',
+  'sys_icp' => '鄂ICP备15000791号-1',
+  'sys_hits' => '2',
+  'sys_copy' => '© 2013 - 2016 青春博客 & 版权所有 ',
+  'sys_remark' => '青春因为爱情而美丽，欢迎来访~',
+  'sys_footer' => '<a href="http://dev.loveteemo.com/admin" target="_blank">管理登陆</a>',
+)
+[ info ] [ RUN ] app\admin\controller\System->basics[ E:\wamp\www\blog\application\admin\controller\System.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_system` [ RunTime:0.006000s ]
+[ sql ] [ SQL ] UPDATE `lt_system`  SET `sys_title`='青春博客',`sys_title2`='青春因为爱情而美丽',`sys_keyword`='青春,爱情,博客,thinkphp,bootstrap3',`sys_createtime`='2013-12-31',`sys_icp`='鄂ICP备15000791号-1',`sys_hits`=2,`sys_copy`='© 2013 - 2016 青春博客 & 版权所有 ',`sys_remark`='青春因为爱情而美丽，欢迎来访~',`sys_footer`='<a href=\"http://dev.loveteemo.com/admin\" target=\"_blank\">管理登陆</a>'  WHERE  `sys_id` = 1 [ RunTime:0.100006s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:03:23+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-system-index.html
+[ log ] www.blog.com/Admin-system-index.html [运行时间：0.107006s][吞吐率：9.35req/s] [内存消耗：4,248.95kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-system-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\System->index[ E:\wamp\www\blog\application\admin\controller\System.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\system/index.html [ array (
+  0 => 'qq_inc',
+  1 => 'mail_inc',
+  2 => 'systeminfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_system` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_system` LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:03:34+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-cate-index.html
+[ log ] www.blog.com/Admin-cate-index.html [运行时间：0.147009s][吞吐率：6.80req/s] [内存消耗：4,307.96kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-system-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cate->index[ E:\wamp\www\blog\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\cate/index.html [ array (
+  0 => 'menulist',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:03:38+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-banner-index.html
+[ log ] www.blog.com/Admin-banner-index.html [运行时间：0.185010s][吞吐率：5.41req/s] [内存消耗：4,470.73kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'banner',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-cate-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Banner->index[ E:\wamp\www\blog\application\admin\controller\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\banner/index.html [ array (
+  0 => 'bannerlist',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_banner` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` ORDER BY ban_id desc LIMIT 0,10 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:03:39+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-tip-index.html
+[ log ] www.blog.com/Admin-tip-index.html [运行时间：0.178010s][吞吐率：5.62req/s] [内存消耗：4,453.44kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'tip',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-banner-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Tip->index[ E:\wamp\www\blog\application\admin\controller\Tip.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\tip/index.html [ array (
+  0 => 'tiplist',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006001s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_tip` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_tip` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_tip` ORDER BY tip_id desc LIMIT 0,10 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:03:41+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-banner-index.html
+[ log ] www.blog.com/Admin-banner-index.html [运行时间：0.113006s][吞吐率：8.85req/s] [内存消耗：4,470.50kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'banner',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-tip-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Banner->index[ E:\wamp\www\blog\application\admin\controller\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\banner/index.html [ array (
+  0 => 'bannerlist',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_banner` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` ORDER BY ban_id desc LIMIT 0,10 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:03:44+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-tip-index.html
+[ log ] www.blog.com/Admin-tip-index.html [运行时间：0.123007s][吞吐率：8.13req/s] [内存消耗：4,453.44kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'tip',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-banner-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Tip->index[ E:\wamp\www\blog\application\admin\controller\Tip.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\tip/index.html [ array (
+  0 => 'tiplist',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_tip` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_tip` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_tip` ORDER BY tip_id desc LIMIT 0,10 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:03:57+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-page-index.html
+[ log ] www.blog.com/Admin-page-index.html [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：2,724.24kb] [文件加载：46]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'page',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-tip-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Page->index[ E:\wamp\www\blog\application\admin\controller\Page.php ]
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\page/index.html [ array (
+  0 => 'html',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:03:59+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-article-index.html
+[ log ] www.blog.com/Admin-article-index.html [运行时间：0.125007s][吞吐率：8.00req/s] [内存消耗：4,499.55kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-page-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ E:\wamp\www\blog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\article/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004001s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` LIMIT 1 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:03+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-article-index.html
+[ log ] www.blog.com/Admin-article-index.html [运行时间：0.120006s][吞吐率：8.33req/s] [内存消耗：4,499.55kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-article-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ E:\wamp\www\blog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\article/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` LIMIT 1 [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:05+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-comment-index.html
+[ log ] www.blog.com/Admin-comment-index.html [运行时间：0.073005s][吞吐率：13.70req/s] [内存消耗：2,081.61kb] [文件加载：37]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'comment',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-article-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:07+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-article-index.html
+[ log ] www.blog.com/Admin-article-index.html [运行时间：0.107006s][吞吐率：9.35req/s] [内存消耗：4,499.41kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-article-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ E:\wamp\www\blog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\article/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:08+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-comment-index.html
+[ log ] www.blog.com/Admin-comment-index.html [运行时间：0.076004s][吞吐率：13.16req/s] [内存消耗：2,081.61kb] [文件加载：37]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'comment',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-article-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:10+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-article-index.html
+[ log ] www.blog.com/Admin-article-index.html [运行时间：0.132007s][吞吐率：7.58req/s] [内存消耗：4,499.41kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-article-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ E:\wamp\www\blog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\article/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` LIMIT 1 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:11+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-comment-index.html
+[ log ] www.blog.com/Admin-comment-index.html [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：2,081.61kb] [文件加载：37]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'comment',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-article-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:12+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-article-index.html
+[ log ] www.blog.com/Admin-article-index.html [运行时间：0.131008s][吞吐率：7.63req/s] [内存消耗：4,499.41kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-article-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ E:\wamp\www\blog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\article/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` LIMIT 1 [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:12+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-member-index.html
+[ log ] www.blog.com/Admin-member-index.html [运行时间：0.252014s][吞吐率：3.97req/s] [内存消耗：4,429.83kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-article-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ E:\wamp\www\blog\application\admin\controller\Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\member/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_member` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_member` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_member` ORDER BY mem_id desc LIMIT 0,10 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:14+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-link-index.html
+[ log ] www.blog.com/Admin-link-index.html [运行时间：0.307018s][吞吐率：3.26req/s] [内存消耗：4,470.23kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'link',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-member-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->index[ E:\wamp\www\blog\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\link/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.007000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id desc LIMIT 0,10 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:14+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] www.blog.com/favicon.ico [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：2,054.50kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-link-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:16+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-link-edit-id-1.html
+[ log ] www.blog.com/Admin-link-edit-id-1.html [运行时间：0.130007s][吞吐率：7.69req/s] [内存消耗：4,488.21kb] [文件加载：54]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-link-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ E:\wamp\www\blog\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\link/edit.html [ array (
+  0 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` WHERE  `link_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:17+08:00 ] 127.0.0.1 127.0.0.1 GET /favicon.ico
+[ log ] www.blog.com/favicon.ico [运行时间：0.065004s][吞吐率：15.38req/s] [内存消耗：2,054.57kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-link-edit-id-1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:22+08:00 ] 127.0.0.1 127.0.0.1 POST /Admin-link-upload.html
+[ log ] www.blog.com/Admin-link-upload.html [运行时间：0.074004s][吞吐率：13.51req/s] [内存消耗：2,636.96kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'link',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '56927',
+  'origin' => 'http://www.blog.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryeBJqEHnqyqFA48wA',
+  'accept' => '*/*',
+  'referer' => 'http://www.blog.com/Admin-link-edit-id-1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'WU_FILE_0',
+  'name' => 'c63ab8e69cd51c64d24b08ab0eff5fc7.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Sat Jul 07 2018 12:56:46 GMT+0800 (中国标准时间)',
+  'size' => '56137',
+)
+[ info ] [ RUN ] app\admin\controller\Link->upload[ E:\wamp\www\blog\application\admin\controller\Link.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:26+08:00 ] 127.0.0.1 127.0.0.1 POST /Admin-link-edit.html
+[ log ] www.blog.com/Admin-link-edit.html [运行时间：0.216012s][吞吐率：4.63req/s] [内存消耗：4,208.21kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '264',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.blog.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.blog.com/Admin-link-edit-id-1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+  'link_id' => '1',
+  'link_name' => '青春博客',
+  'link_url' => 'loveteemo.com',
+  'link_content' => '测试描述',
+  'link_sort' => '100',
+  'link_view' => '1',
+  'link_old_img' => '/favicon.ico',
+  'link_favicon' => '/uploads/link/20180730/3b92c01e9ca912c2703f508284588431.jpg',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ E:\wamp\www\blog\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] UPDATE `lt_link`  SET `link_name`='青春博客',`link_url`='loveteemo.com',`link_content`='测试描述',`link_sort`=100,`link_view`=1,`link_favicon`='/uploads/link/20180730/3b92c01e9ca912c2703f508284588431.jpg'  WHERE  `link_id` = 1 [ RunTime:0.097006s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:27+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-link-index.html
+[ log ] www.blog.com/Admin-link-index.html [运行时间：0.156009s][吞吐率：6.41req/s] [内存消耗：4,470.51kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'link',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-link-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->index[ E:\wamp\www\blog\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\link/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005001s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id desc LIMIT 0,10 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:31+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-link-edit-id-1.html
+[ log ] www.blog.com/Admin-link-edit-id-1.html [运行时间：0.128007s][吞吐率：7.81req/s] [内存消耗：4,224.52kb] [文件加载：52]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-link-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ E:\wamp\www\blog\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\link/edit.html [ array (
+  0 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` WHERE  `link_id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:35+08:00 ] 127.0.0.1 127.0.0.1 POST /Admin-link-upload.html
+[ log ] www.blog.com/Admin-link-upload.html [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：2,636.96kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'link',
+    2 => 'upload',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '97851',
+  'origin' => 'http://www.blog.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundarytJAVSIXVevaSsDYQ',
+  'accept' => '*/*',
+  'referer' => 'http://www.blog.com/Admin-link-edit-id-1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'WU_FILE_0',
+  'name' => '7cd3af948113626eac9bb83a110018fc.jpg',
+  'type' => 'image/jpeg',
+  'lastModifiedDate' => 'Sat Jul 07 2018 09:17:35 GMT+0800 (中国标准时间)',
+  'size' => '97061',
+)
+[ info ] [ RUN ] app\admin\controller\Link->upload[ E:\wamp\www\blog\application\admin\controller\Link.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:38+08:00 ] 127.0.0.1 127.0.0.1 POST /Admin-link-edit.html
+[ log ] www.blog.com/Admin-link-edit.html [运行时间：0.186010s][吞吐率：5.38req/s] [内存消耗：4,208.82kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'link',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'content-length' => '317',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://www.blog.com',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://www.blog.com/Admin-link-edit-id-1.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+  'link_id' => '1',
+  'link_name' => '青春博客',
+  'link_url' => 'loveteemo.com',
+  'link_content' => '测试描述',
+  'link_sort' => '100',
+  'link_view' => '1',
+  'link_old_img' => '/uploads/link/20180730/3b92c01e9ca912c2703f508284588431.jpg',
+  'link_favicon' => '/uploads/link/20180730/5043369446b5c758dd7dd9e8882cf5d9.jpg',
+)
+[ info ] [ RUN ] app\admin\controller\Link->edit[ E:\wamp\www\blog\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] UPDATE `lt_link`  SET `link_name`='青春博客',`link_url`='loveteemo.com',`link_content`='测试描述',`link_sort`=100,`link_view`=1,`link_favicon`='/uploads/link/20180730/5043369446b5c758dd7dd9e8882cf5d9.jpg'  WHERE  `link_id` = 1 [ RunTime:0.071004s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:39+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-link-index.html
+[ log ] www.blog.com/Admin-link-index.html [运行时间：0.097005s][吞吐率：10.31req/s] [内存消耗：4,470.52kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'link',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-link-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->index[ E:\wamp\www\blog\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\link/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id desc LIMIT 0,10 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:53+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-version-index.html
+[ log ] www.blog.com/Admin-version-index.html [运行时间：0.311017s][吞吐率：3.22req/s] [内存消耗：4,440.48kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'version',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-link-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Version->index[ E:\wamp\www\blog\application\admin\controller\Version.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\version/index.html [ array (
+  0 => 'versionlist',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_version` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_version` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_version` ORDER BY ver_id desc LIMIT 0,10 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:04:56+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-version-add.html
+[ log ] www.blog.com/Admin-version-add.html [运行时间：0.206012s][吞吐率：4.85req/s] [内存消耗：4,443.75kb] [文件加载：54]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'version',
+    2 => 'add',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-version-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Version->add[ E:\wamp\www\blog\application\admin\controller\Version.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\version/add.html [ array (
+  0 => 'lastversion',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_version` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT MAX(ver_bate) AS tp_max FROM `lt_version` LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:01+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-article-index.html
+[ log ] www.blog.com/Admin-article-index.html [运行时间：0.121007s][吞吐率：8.26req/s] [内存消耗：4,499.55kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'article',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-version-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Article->index[ E:\wamp\www\blog\application\admin\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\article/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` LIMIT 1 [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:02+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-page-index.html
+[ log ] www.blog.com/Admin-page-index.html [运行时间：0.081004s][吞吐率：12.35req/s] [内存消耗：2,724.24kb] [文件加载：46]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'page',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-article-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Page->index[ E:\wamp\www\blog\application\admin\controller\Page.php ]
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\page/index.html [ array (
+  0 => 'html',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:03+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-banner-index.html
+[ log ] www.blog.com/Admin-banner-index.html [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：4,470.74kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'banner',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-page-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Banner->index[ E:\wamp\www\blog\application\admin\controller\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\banner/index.html [ array (
+  0 => 'bannerlist',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_banner` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` ORDER BY ban_id desc LIMIT 0,10 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:04+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-cate-index.html
+[ log ] www.blog.com/Admin-cate-index.html [运行时间：0.121007s][吞吐率：8.26req/s] [内存消耗：4,307.96kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-banner-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cate->index[ E:\wamp\www\blog\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\cate/index.html [ array (
+  0 => 'menulist',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004001s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:04+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-banner-index.html
+[ log ] www.blog.com/Admin-banner-index.html [运行时间：0.104006s][吞吐率：9.61req/s] [内存消耗：4,470.74kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'banner',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-cate-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Banner->index[ E:\wamp\www\blog\application\admin\controller\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\banner/index.html [ array (
+  0 => 'bannerlist',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_banner` LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` ORDER BY ban_id desc LIMIT 0,10 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:06+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-banner-index.html
+[ log ] www.blog.com/Admin-banner-index.html [运行时间：0.197011s][吞吐率：5.08req/s] [内存消耗：4,470.73kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'banner',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-banner-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Banner->index[ E:\wamp\www\blog\application\admin\controller\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\banner/index.html [ array (
+  0 => 'bannerlist',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005001s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.005000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_banner` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` ORDER BY ban_id desc LIMIT 0,10 [ RunTime:0.002001s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:06+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-tip-index.html
+[ log ] www.blog.com/Admin-tip-index.html [运行时间：0.114006s][吞吐率：8.77req/s] [内存消耗：4,453.44kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'tip',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-banner-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Tip->index[ E:\wamp\www\blog\application\admin\controller\Tip.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\tip/index.html [ array (
+  0 => 'tiplist',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_tip` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_tip` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_tip` ORDER BY tip_id desc LIMIT 0,10 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:07+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-page-index.html
+[ log ] www.blog.com/Admin-page-index.html [运行时间：0.094006s][吞吐率：10.64req/s] [内存消耗：2,724.24kb] [文件加载：46]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'page',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-tip-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Page->index[ E:\wamp\www\blog\application\admin\controller\Page.php ]
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\page/index.html [ array (
+  0 => 'html',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:08+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-tip-index.html
+[ log ] www.blog.com/Admin-tip-index.html [运行时间：0.196011s][吞吐率：5.10req/s] [内存消耗：4,453.44kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'tip',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-page-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Tip->index[ E:\wamp\www\blog\application\admin\controller\Tip.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\tip/index.html [ array (
+  0 => 'tiplist',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005001s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_tip` [ RunTime:0.010000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_tip` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_tip` ORDER BY tip_id desc LIMIT 0,10 [ RunTime:0.004000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:11+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-cate-index.html
+[ log ] www.blog.com/Admin-cate-index.html [运行时间：0.097006s][吞吐率：10.31req/s] [内存消耗：4,307.67kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-tip-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cate->index[ E:\wamp\www\blog\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\cate/index.html [ array (
+  0 => 'menulist',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:12+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-system-index.html
+[ log ] www.blog.com/Admin-system-index.html [运行时间：0.166009s][吞吐率：6.02req/s] [内存消耗：4,248.63kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-cate-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\System->index[ E:\wamp\www\blog\application\admin\controller\System.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\system/index.html [ array (
+  0 => 'qq_inc',
+  1 => 'mail_inc',
+  2 => 'systeminfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_system` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_system` LIMIT 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:12+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-index-index.html
+[ log ] www.blog.com/Admin-index-index.html [运行时间：0.127007s][吞吐率：7.87req/s] [内存消耗：4,509.97kb] [文件加载：58]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-system-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\wamp\www\blog\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\index/index.html [ array (
+  0 => 'a_indexdata',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_comment` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_comment` WHERE  (  com_view = 1 and com_artid != 0 ) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_comment` WHERE  (  com_view= 1 and com_artid = 0 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_member` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_member` LIMIT 1 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:19+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-index-index.html
+[ log ] www.blog.com/Admin-index-index.html [运行时间：0.121007s][吞吐率：8.26req/s] [内存消耗：4,510.20kb] [文件加载：58]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-index-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\wamp\www\blog\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\index/index.html [ array (
+  0 => 'a_indexdata',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_comment` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_comment` WHERE  (  com_view = 1 and com_artid != 0 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_comment` WHERE  (  com_view= 1 and com_artid = 0 ) LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_member` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_member` LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:28+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-cate-index.html
+[ log ] www.blog.com/Admin-cate-index.html [运行时间：0.093005s][吞吐率：10.75req/s] [内存消耗：4,307.98kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'cate',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-index-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Cate->index[ E:\wamp\www\blog\application\admin\controller\Cate.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\cate/index.html [ array (
+  0 => 'menulist',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:29+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-system-index.html
+[ log ] www.blog.com/Admin-system-index.html [运行时间：0.121007s][吞吐率：8.26req/s] [内存消耗：4,248.63kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-cate-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\System->index[ E:\wamp\www\blog\application\admin\controller\System.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\system/index.html [ array (
+  0 => 'qq_inc',
+  1 => 'mail_inc',
+  2 => 'systeminfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003001s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_system` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_system` LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:33+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-system-index.html
+[ log ] www.blog.com/Admin-system-index.html [运行时间：0.116007s][吞吐率：8.62req/s] [内存消耗：4,248.63kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-system-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\System->index[ E:\wamp\www\blog\application\admin\controller\System.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\system/index.html [ array (
+  0 => 'qq_inc',
+  1 => 'mail_inc',
+  2 => 'systeminfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_system` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_system` LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:34+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-system-index.html
+[ log ] www.blog.com/Admin-system-index.html [运行时间：0.186010s][吞吐率：5.38req/s] [内存消耗：4,248.63kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-system-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\System->index[ E:\wamp\www\blog\application\admin\controller\System.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\system/index.html [ array (
+  0 => 'qq_inc',
+  1 => 'mail_inc',
+  2 => 'systeminfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_system` [ RunTime:0.007001s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_system` LIMIT 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:35+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-system-index.html
+[ log ] www.blog.com/Admin-system-index.html [运行时间：0.085004s][吞吐率：11.76req/s] [内存消耗：4,248.63kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-system-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\System->index[ E:\wamp\www\blog\application\admin\controller\System.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\system/index.html [ array (
+  0 => 'qq_inc',
+  1 => 'mail_inc',
+  2 => 'systeminfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_system` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_system` LIMIT 1 [ RunTime:0.002000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:36+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-auth-clean.html
+[ log ] www.blog.com/Admin-auth-clean.html [运行时间：0.340020s][吞吐率：2.94req/s] [内存消耗：2,538.24kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'auth',
+    2 => 'clean',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-system-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Auth->clean[ E:\wamp\www\blog\application\admin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:41+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-index-index.html
+[ log ] www.blog.com/Admin-index-index.html [运行时间：0.228013s][吞吐率：4.39req/s] [内存消耗：4,785.11kb] [文件加载：60]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-system-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ E:\wamp\www\blog\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\index/index.html [ array (
+  0 => 'a_indexdata',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_comment` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_comment` WHERE  (  com_view = 1 and com_artid != 0 ) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_comment` WHERE  (  com_view= 1 and com_artid = 0 ) LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_member` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_member` LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:43+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-auth-clean.html
+[ log ] www.blog.com/Admin-auth-clean.html [运行时间：0.082005s][吞吐率：12.19req/s] [内存消耗：2,538.26kb] [文件加载：42]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'auth',
+    2 => 'clean',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-index-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Auth->clean[ E:\wamp\www\blog\application\admin\controller\Auth.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:45+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-system-index.html
+[ log ] www.blog.com/Admin-system-index.html [运行时间：0.232013s][吞吐率：4.31req/s] [内存消耗：4,551.95kb] [文件加载：55]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-index-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\System->index[ E:\wamp\www\blog\application\admin\controller\System.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\system/index.html [ array (
+  0 => 'qq_inc',
+  1 => 'mail_inc',
+  2 => 'systeminfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_system` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_system` LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:48+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-auth-logout.html
+[ log ] www.blog.com/Admin-auth-logout.html [运行时间：0.078005s][吞吐率：12.82req/s] [内存消耗：2,459.64kb] [文件加载：40]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'auth',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'accept' => '*/*',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'referer' => 'http://www.blog.com/Admin-system-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Auth->logout[ E:\wamp\www\blog\application\admin\controller\Auth.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:48+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-system-index.html
+[ log ] www.blog.com/Admin-system-index.html [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：4,248.97kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'system',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-system-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\System->index[ E:\wamp\www\blog\application\admin\controller\System.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\system/index.html [ array (
+  0 => 'qq_inc',
+  1 => 'mail_inc',
+  2 => 'systeminfo',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_system` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_system` LIMIT 1 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:05:59+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-link-index.html
+[ log ] www.blog.com/Admin-link-index.html [运行时间：0.210012s][吞吐率：4.76req/s] [内存消耗：4,740.91kb] [文件加载：59]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'link',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-system-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Link->index[ E:\wamp\www\blog\application\admin\controller\Link.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\link/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id desc LIMIT 0,10 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:00+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-version-index.html
+[ log ] www.blog.com/Admin-version-index.html [运行时间：0.235013s][吞吐率：4.26req/s] [内存消耗：4,705.08kb] [文件加载：59]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'version',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-link-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Version->index[ E:\wamp\www\blog\application\admin\controller\Version.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\version/index.html [ array (
+  0 => 'versionlist',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012001s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_version` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_version` LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_version` ORDER BY ver_id desc LIMIT 0,10 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:01+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-member-index.html
+[ log ] www.blog.com/Admin-member-index.html [运行时间：0.117007s][吞吐率：8.55req/s] [内存消耗：4,698.88kb] [文件加载：59]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-version-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ E:\wamp\www\blog\application\admin\controller\Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\member/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_member` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_member` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_member` ORDER BY mem_id desc LIMIT 0,10 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:01+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-comment-index.html
+[ log ] www.blog.com/Admin-comment-index.html [运行时间：0.059003s][吞吐率：16.95req/s] [内存消耗：2,081.61kb] [文件加载：37]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'comment',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-member-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:03+08:00 ] 127.0.0.1 127.0.0.1 GET /Admin-member-index.html
+[ log ] www.blog.com/Admin-member-index.html [运行时间：0.083005s][吞吐率：12.05req/s] [内存消耗：4,429.73kb] [文件加载：57]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'member',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/Admin-version-index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Member->index[ E:\wamp\www\blog\application\admin\controller\Member.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/admin\view\member/index.html [ array (
+  0 => 'list',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_member` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_member` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_member` ORDER BY mem_id desc LIMIT 0,10 [ RunTime:0.000000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:08+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ log ] www.blog.com/about.html [运行时间：0.073004s][吞吐率：13.70req/s] [内存消耗：2,865.14kb] [文件加载：43]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'About',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\About->index[ E:\wamp\www\blog\application\index\controller\About.php ]
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/index\view\about\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:08+08:00 ] 127.0.0.1 127.0.0.1 GET /STATIC/home/img/logo.png
+[ log ] www.blog.com/STATIC/home/img/logo.png [运行时间：0.045003s][吞吐率：22.22req/s] [内存消耗：2,054.84kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/static/home/css/base.css',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:09+08:00 ] 127.0.0.1 127.0.0.1 GET /index.html
+[ log ] www.blog.com/index.html [运行时间：0.145008s][吞吐率：6.90req/s] [内存消耗：4,532.99kb] [文件加载：52]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/about.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/index\view\index\index.html [ array (
+  0 => 'res',
+  1 => 'resBanner',
+  2 => 'menuName',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_id`  desc LIMIT 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` WHERE  `ban_view` = 1 ORDER BY `ban_Id`  desc LIMIT 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:09+08:00 ] 127.0.0.1 127.0.0.1 GET /STATIC/home/img/wx.jpg
+[ log ] www.blog.com/STATIC/home/img/wx.jpg [运行时间：0.057004s][吞吐率：17.54req/s] [内存消耗：2,054.90kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:11+08:00 ] 127.0.0.1 127.0.0.1 GET /lists.html
+[ log ] www.blog.com/lists.html [运行时间：0.144008s][吞吐率：6.94req/s] [内存消耗：4,648.33kb] [文件加载：54]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Lists',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Lists->index[ E:\wamp\www\blog\application\index\controller\Lists.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/index\view\lists\index.html [ array (
+  0 => 'resByMenu',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_menu` WHERE  `menu_parent` = 0  AND `menu_view` = 1 LIMIT 1 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0  AND `menu_view` = 1 LIMIT 0,15 [ RunTime:0.003000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:11+08:00 ] 127.0.0.1 127.0.0.1 GET /images/t01.jpg
+[ log ] www.blog.com/images/t01.jpg [运行时间：0.112006s][吞吐率：8.93req/s] [内存消耗：2,054.71kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 't01.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:11+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b03.jpg
+[ log ] www.blog.com/images/b03.jpg [运行时间：0.109006s][吞吐率：9.17req/s] [内存消耗：2,054.71kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'b03.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:12+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b06.jpg
+[ log ] www.blog.com/images/b06.jpg [运行时间：0.201012s][吞吐率：4.97req/s] [内存消耗：2,054.71kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'b06.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:12+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b01.png
+[ log ] www.blog.com/images/b01.png [运行时间：0.226013s][吞吐率：4.42req/s] [内存消耗：2,054.71kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'b01.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:12+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b05.jpg
+[ log ] www.blog.com/images/b05.jpg [运行时间：0.187011s][吞吐率：5.35req/s] [内存消耗：2,054.71kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'b05.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:12+08:00 ] 127.0.0.1 127.0.0.1 GET /images/t02.jpg
+[ log ] www.blog.com/images/t02.jpg [运行时间：0.291017s][吞吐率：3.44req/s] [内存消耗：2,054.71kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 't02.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:12+08:00 ] 127.0.0.1 127.0.0.1 GET /images/mb02.jpg
+[ log ] www.blog.com/images/mb02.jpg [运行时间：0.184010s][吞吐率：5.43req/s] [内存消耗：2,054.53kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'mb02.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:12+08:00 ] 127.0.0.1 127.0.0.1 GET /images/wx.jpg
+[ log ] www.blog.com/images/wx.jpg [运行时间：0.114006s][吞吐率：8.77req/s] [内存消耗：2,054.71kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'wx.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:12+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b04.jpg
+[ log ] www.blog.com/images/b04.jpg [运行时间：0.275016s][吞吐率：3.64req/s] [内存消耗：2,054.71kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'b04.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:13+08:00 ] 127.0.0.1 127.0.0.1 GET /articleList-7.html
+[ log ] www.blog.com/articleList-7.html [运行时间：0.092006s][吞吐率：10.87req/s] [内存消耗：4,545.50kb] [文件加载：51]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'article',
+    2 => 'lists',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ RUN ] app\index\controller\Article->lists[ E:\wamp\www\blog\application\index\controller\Article.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/index\view\article\lists.html [ array (
+  0 => 'resByMenu',
+  1 => 'resByList',
+  2 => 'menuName',
+  3 => 'id',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.003001s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0  AND `menu_view` = 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_pid` = 7 [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:13+08:00 ] 127.0.0.1 127.0.0.1 GET /images/t02.jpg
+[ log ] www.blog.com/images/t02.jpg [运行时间：0.082005s][吞吐率：12.19req/s] [内存消耗：2,054.77kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 't02.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/articleList-7.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:14+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b04.jpg
+[ log ] www.blog.com/images/b04.jpg [运行时间：0.128008s][吞吐率：7.81req/s] [内存消耗：2,054.77kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'b04.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/articleList-7.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:14+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b06.jpg
+[ log ] www.blog.com/images/b06.jpg [运行时间：0.137008s][吞吐率：7.30req/s] [内存消耗：2,054.77kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'b06.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/articleList-7.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:14+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b03.jpg
+[ log ] www.blog.com/images/b03.jpg [运行时间：0.150008s][吞吐率：6.67req/s] [内存消耗：2,054.77kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'b03.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/articleList-7.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:14+08:00 ] 127.0.0.1 127.0.0.1 GET /images/mb02.jpg
+[ log ] www.blog.com/images/mb02.jpg [运行时间：0.132008s][吞吐率：7.58req/s] [内存消耗：2,054.88kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'mb02.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/articleList-7.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:14+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b05.jpg
+[ log ] www.blog.com/images/b05.jpg [运行时间：0.148009s][吞吐率：6.76req/s] [内存消耗：2,054.77kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'b05.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/articleList-7.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:14+08:00 ] 127.0.0.1 127.0.0.1 GET /images/wx.jpg
+[ log ] www.blog.com/images/wx.jpg [运行时间：0.109007s][吞吐率：9.17req/s] [内存消耗：2,054.77kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'wx.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/articleList-7.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:15+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b06.jpg
+[ log ] www.blog.com/images/b06.jpg [运行时间：0.075005s][吞吐率：13.33req/s] [内存消耗：2,054.71kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'b06.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:15+08:00 ] 127.0.0.1 127.0.0.1 GET /images/t01.jpg
+[ log ] www.blog.com/images/t01.jpg [运行时间：0.145008s][吞吐率：6.90req/s] [内存消耗：2,054.71kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 't01.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:15+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b01.png
+[ log ] www.blog.com/images/b01.png [运行时间：0.136008s][吞吐率：7.35req/s] [内存消耗：2,054.71kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'b01.png',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:15+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b03.jpg
+[ log ] www.blog.com/images/b03.jpg [运行时间：0.147008s][吞吐率：6.80req/s] [内存消耗：2,054.71kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'b03.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:15+08:00 ] 127.0.0.1 127.0.0.1 GET /images/wx.jpg
+[ log ] www.blog.com/images/wx.jpg [运行时间：0.075004s][吞吐率：13.33req/s] [内存消耗：2,054.76kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'wx.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:15+08:00 ] 127.0.0.1 127.0.0.1 GET /images/mb02.jpg
+[ log ] www.blog.com/images/mb02.jpg [运行时间：0.189010s][吞吐率：5.29req/s] [内存消耗：2,054.53kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'mb02.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:16+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b05.jpg
+[ log ] www.blog.com/images/b05.jpg [运行时间：0.115006s][吞吐率：8.70req/s] [内存消耗：2,054.71kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'b05.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:16+08:00 ] 127.0.0.1 127.0.0.1 GET /images/b04.jpg
+[ log ] www.blog.com/images/b04.jpg [运行时间：0.120007s][吞吐率：8.33req/s] [内存消耗：2,054.71kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'images',
+    1 => 'b04.jpg',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:16+08:00 ] 127.0.0.1 127.0.0.1 GET /index.html
+[ log ] www.blog.com/index.html [运行时间：0.072004s][吞吐率：13.89req/s] [内存消耗：4,271.16kb] [文件加载：50]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/lists.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/index\view\index\index.html [ array (
+  0 => 'res',
+  1 => 'resBanner',
+  2 => 'menuName',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:dbname=lhblog;host=127.0.0.1;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_id`  desc LIMIT 10 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` WHERE  `ban_view` = 1 ORDER BY `ban_Id`  desc LIMIT 3 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.001000s ]
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:16+08:00 ] 127.0.0.1 127.0.0.1 GET /STATIC/home/img/wx.jpg
+[ log ] www.blog.com/STATIC/home/img/wx.jpg [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：2,054.90kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'home',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:18+08:00 ] 127.0.0.1 127.0.0.1 GET /about.html
+[ log ] www.blog.com/about.html [运行时间：0.107006s][吞吐率：9.35req/s] [内存消耗：2,612.31kb] [文件加载：41]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => NULL,
+    1 => 'About',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/index.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\About->index[ E:\wamp\www\blog\application\index\controller\About.php ]
+[ info ] [ VIEW ] E:\wamp\www\blog\public/../application/index\view\about\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:38+08:00 ] 127.0.0.1 127.0.0.1 GET /share.html
+[ log ] www.blog.com/share.html [运行时间：0.049003s][吞吐率：20.41req/s] [内存消耗：2,054.90kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'share',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/about.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:40+08:00 ] 127.0.0.1 127.0.0.1 GET /list.html
+[ log ] www.blog.com/list.html [运行时间：0.071004s][吞吐率：14.08req/s] [内存消耗：2,054.85kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'list',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/about.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-07-30T17:06:43+08:00 ] 127.0.0.1 127.0.0.1 GET /link.html
+[ log ] www.blog.com/link.html [运行时间：0.074004s][吞吐率：13.51req/s] [内存消耗：2,054.85kb] [文件加载：35]
+[ info ] [ LANG ] E:\wamp\www\blog\framework\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'link',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.blog.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.blog.com/about.html',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=qldnvuutskb9qm2q7654vtsbp5; thinkphp_show_page_trace=0|3',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------

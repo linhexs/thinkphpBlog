@@ -1,0 +1,6 @@
+[ 2019-02-19T02:46:58+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.015525s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.006674s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 28 LIMIT 1 [ RunTime:0.017216s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=35  WHERE  `art_id` = 28 [ RunTime:0.034347s ]
+
+---------------------------------------------------------------

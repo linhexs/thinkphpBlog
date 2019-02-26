@@ -1,0 +1,34 @@
+{include file="public/header"}
+<link href="/static/home/css/link.css" rel="stylesheet">
+<article>
+    <h2 class="litle"><span>可能，你觉得自己没有足够得优秀，但我始终相信你仍然在努力坚持着!</span>友情链接</h2>
+    <div class="link_box">
+        <h2 class="ctitle"><b>友情链接</b> </h2>
+        <ul class="blogsitetj">
+            {volist name="resByLinks" id="vo"}
+            <li><a href={$vo.link_url} target="_blank" title="{$vo.link_name}">{$vo.link_name}</a></li>
+            {/volist}
+        </ul>
+       <h2 class="ctitle"><b>技术网站推荐</b> </h2>
+        <ul class="blogsite">
+            <li><a href="http://www.imooc.com" target="_blank" title="慕课网">慕课网</a></li>
+            <li><a href="https://www.icourse163.org/" target="_blank" title="中国大学mooc">中国大学mooc</a></li>
+            <li><a href="http://www.php.cn/" target="_blank" title="php中文网">php中文网</a></li>
+            <li><a href="http://www.php.net/" target="_blank" title="php官网">php官网</a></li>
+            <li><a href="https://www.swoole.com/" target="_blank" title="swoole官网">swoole官网</a></li>
+            <li><a href="http://www.w3school.com.cn/" target="_blank" title="w3c">w3c</a></li>
+            <li><a href="http://www.runoob.com/" target="_blank" title="菜鸟教程">菜鸟教程</a></li>
+            <li><a href="http://layer.layui.com/" target="_blank" title="layer">layer弹出层</a></li>
+            <li><a href="http://www.thinkphp.cn/" target="_blank" title="thinkphp官网">thinkphp官网</a></li>
+            <li><a href="https://www.yiichina.com/" target="_blank" title="yii中文官网">yii中文官网</a></li>
+            <li><a href="http://laravelacademy.org/" target="_blank" title="laraval">laraval学院</a></li>
+            <li><a href="http://www.bootcss.com/" target="_blank" title="bootstrap">bootstrap</a></li>
+            <li><a href="http://www.51cto.com/" target="_blank" title="51cto">51cto</a></li>
+            <li><a href="https://www.csdn.net/" target="_blank" title="csdn">csdn</a></li>
+            <li><a href="http://nginx.org/" target="_blank" title="nginx">nginx</a></li>
+            <li><a href="http://www.17sucai.com/" target="_blank" title="17素材">17素材</a></li>
+            <li><a href="http://www.sucaihuo.com/" target="_blank" title="素材火">素材火</a></li>
+        </ul>
+    </div>
+</article>
+{include file="public/footer"}

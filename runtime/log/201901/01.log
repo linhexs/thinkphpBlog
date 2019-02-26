@@ -1,0 +1,638 @@
+[ 2019-01-01T00:09:53+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044026s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043328s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_id`  desc LIMIT 10 [ RunTime:0.054647s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.043353s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id asc [ RunTime:0.043728s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.043719s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.043320s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` WHERE  `ban_view` = 1 ORDER BY `ban_Id`  desc LIMIT 2 [ RunTime:0.043642s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043516s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.032744s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T00:11:19+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043912s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.032372s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 3 ORDER BY art_id desc LIMIT 1 [ RunTime:0.032588s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<3 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.022607s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>3 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043772s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043449s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043738s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T00:38:04+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044112s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043274s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_id`  desc LIMIT 10 [ RunTime:0.054399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.043257s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id asc [ RunTime:0.043619s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.043603s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.043963s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` WHERE  `ban_view` = 1 ORDER BY `ban_Id`  desc LIMIT 2 [ RunTime:0.043635s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043336s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043722s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T08:11:09+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044244s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043370s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_id`  desc LIMIT 10 [ RunTime:0.054596s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.043347s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id asc [ RunTime:0.043701s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.043768s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.044015s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` WHERE  `ban_view` = 1 ORDER BY `ban_Id`  desc LIMIT 2 [ RunTime:0.043461s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043265s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043730s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T08:40:48+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044013s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043364s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.043660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043400s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0  AND `menu_view` = 1 [ RunTime:0.043623s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043646s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` WHERE  `art_pid` = 5 LIMIT 1 [ RunTime:0.043952s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_pid` = 5 ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.043782s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T12:04:27+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043955s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043352s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 23 ORDER BY art_id desc LIMIT 1 [ RunTime:0.043607s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<23 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043652s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>23 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043699s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.033909s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.022309s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T12:49:37+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043836s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043357s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 8 ORDER BY art_id desc LIMIT 1 [ RunTime:0.043600s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<8 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043650s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>8 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043668s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043508s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043740s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T13:21:04+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044106s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043339s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 22 ORDER BY art_id desc LIMIT 1 [ RunTime:0.043492s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<22 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043613s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>22 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043709s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043390s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.032725s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T14:00:37+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044304s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043364s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 21 ORDER BY art_id desc LIMIT 1 [ RunTime:0.043601s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<21 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043640s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>21 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043678s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043487s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043723s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T16:10:48+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043712s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.044325s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 23 ORDER BY art_id desc LIMIT 1 [ RunTime:0.043549s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<23 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.033212s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>23 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.044082s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.033289s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043716s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T16:30:57+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043663s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043325s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_id`  desc LIMIT 10 [ RunTime:0.054410s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.043298s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id asc [ RunTime:0.032634s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.043655s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.043254s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` WHERE  `ban_view` = 1 ORDER BY `ban_Id`  desc LIMIT 2 [ RunTime:0.022465s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043509s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043735s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:56:00+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044220s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043386s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_id`  desc LIMIT 10 [ RunTime:0.054460s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.043341s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id asc [ RunTime:0.032734s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.043669s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.043253s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` WHERE  `ban_view` = 1 ORDER BY `ban_Id`  desc LIMIT 2 [ RunTime:0.043642s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043299s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043731s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:56:08+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043972s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043361s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.043659s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043422s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0  AND `menu_view` = 1 [ RunTime:0.043607s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.032669s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` WHERE  `art_pid` = 1 LIMIT 1 [ RunTime:0.043929s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_pid` = 1 ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.283691s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:56:31+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043883s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_account` [ RunTime:0.022278s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_account` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.115630s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:56:33+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044149s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.033377s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1 [ RunTime:0.021948s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_comment` [ RunTime:0.033395s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_comment` WHERE  (  com_view = 1 and com_artid != 0 ) LIMIT 1 [ RunTime:0.049655s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_comment` WHERE  (  com_view= 1 and com_artid = 0 ) LIMIT 1 [ RunTime:0.043589s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.043743s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1 [ RunTime:0.043626s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_member` [ RunTime:0.043865s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_member` LIMIT 1 [ RunTime:0.043631s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:56:41+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044648s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.044109s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1 [ RunTime:0.014279s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id desc LIMIT 0,10 [ RunTime:0.033195s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:56:42+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044327s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043303s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` LIMIT 1 [ RunTime:0.142585s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.055674s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:56:48+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.033009s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.033865s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_banner` LIMIT 1 [ RunTime:0.043666s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` ORDER BY ban_id desc LIMIT 0,10 [ RunTime:0.043747s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:56:49+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044034s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043927s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` [ RunTime:0.043788s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:56:51+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043713s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043359s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` [ RunTime:0.043757s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:57:49+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043556s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043265s ]
+[ sql ] [ SQL ] INSERT INTO `lt_menu` (`menu_name` , `menu_url` , `menu_parent` , `menu_sort` , `menu_remark` , `menu_createtime` , `menu_view`) VALUES ('english' , '12' , 0 , 12 , '12' , '2019-01-01 19:57:49' , 0) [ RunTime:0.049332s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:57:50+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043589s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043332s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` [ RunTime:0.043748s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:57:51+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044208s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043342s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` LIMIT 1 [ RunTime:0.043633s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.055721s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:57:54+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.048255s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.033048s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0 [ RunTime:0.043978s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:59:33+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044267s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043355s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.043644s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043344s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0  AND `menu_view` = 1 [ RunTime:0.043633s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043601s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` WHERE  `art_pid` = 1 LIMIT 1 [ RunTime:0.043888s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_pid` = 1 ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.285746s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:59:36+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044237s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043335s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_id`  desc LIMIT 10 [ RunTime:0.054578s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.043343s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id asc [ RunTime:0.033353s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.033054s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.013182s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` WHERE  `ban_view` = 1 ORDER BY `ban_Id`  desc LIMIT 2 [ RunTime:0.026598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043429s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043539s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:59:40+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.023576s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.044083s ]
+[ sql ] [ SQL ] INSERT INTO `lt_article` (`art_title` , `art_pid` , `art_keyword` , `art_remark` , `art_view` , `art_original` , `art_url` , `art_author` , `art_img` , `art_content` , `art_addtime` , `art_from` , `art_city` , `art_down`) VALUES ('english' , 8 , 'english' , 'english' , 2 , 1 , '' , 'lin' , '/uploads/20190101/2e0e4121aa913548d32b9068dfa96cd6.jpg' , '<p><span style=\"font-size:16px\">Unit 1</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">1.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">众所周知，中国在</span><span style=\"font-size:16px\">2003</span><span style=\"font-size:16px;font-family: 宋体\">年成功地发射了第一艘载人宇宙飞船。</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px;text-indent:0\"><span style=\"font-size:16px;color:red\">As is know to all , the year 2003 saw the successful lauching of china’s first manned spaceship.</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">2.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">时间见证了这所大学悠久的历史、自由的学术氛围和充满活力的学生生活。</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px;text-indent:0\"><span style=\"font-size:16px;color:red\">Time has witnessed the long history , free academic atmosphere and energetic students’ life of the university</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">3.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">中国在新世纪将发生重大而深远的变化。</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px;text-indent:0\"><span style=\"font-size:16px;color:red\">The new century will see a significant and far-reaching change in China.</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">4.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">南京这座古老的而美丽的城市见证过许多重大的历史事件。</span></p><p style=\"text-indent:24px\"><span style=\"font-size:16px;color:red\">Nanjing,an ancient and beautiful city,has witnessed many great historic events</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">5.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">重游青年时代曾经学习和工作的地方时，他回忆起许多美好的往事。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">A visit to the places where he had studied and worked during his youth brought back many fond memories.</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">&nbsp;</span></p><p><span style=\"font-size:16px\">Unit 2</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">1.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">观看激烈的足球比赛是让我忘却工作中一切烦恼的最佳途径。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">Watching exciting football games is the best way to take my mind off all the problems in my work</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">2.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">朋友们伤感的目送他开车离开，清楚地知道下次见面应该是很久之后了。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">Friends sadly watched his drive off,knowing it would be long before they could meet again</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">3.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">社区工作人员花了一个月的擦去那些曾经是城市印象的涂鸦。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">It took the community workers a month to wipe off the graffiti,which used to be a notable sight of the city.</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">4.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">在高海拔地区，人们用很多方法来阻挡紫外线。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">In high altitude areas,people use lots of ways to keep off ultraviolet rays</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">5.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">由于暴风雪，这个村子的水电供给都已经被切断了。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">This village’s water and power supplies have been cut off because of the snowstorm</span></p><p><span style=\"font-size:16px;color:red\">&nbsp;</span></p><p><span style=\"font-size:16px\">Unit 3</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">1.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">乡村音乐是当今美国最流行的音乐形式之一</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px;text-indent:0\"><span style=\"font-size:16px;color:red\">Country music is one of the most popular forms of music in the United Status today.</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">2.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">没有一种不幸可与失去时间相比</span></p><p style=\"text-indent:24px\"><span style=\"font-size:16px;color:red\">There is no other misfortune that could be compared with the loss of time</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">3.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">最忠实的朋友莫过于一本书</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px;text-indent:0\"><span style=\"font-size:16px;color:red\">There is no friend as loyal as a good book</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">4.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">在世界上其他任何地方，你都找不到与瑞士一样迷人的风景</span></p><p style=\"text-indent:24px\"><span style=\"font-size:16px;color:red\">Nowhere else in the world can you find scenery as attractive as in Switzerland</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">5.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px\">CD</span><span style=\"font-size:16px;font-family:宋体\">的音质胜过任何盒式录音带。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">No cassette tapes could rival CDs in terms of sound quality</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px;text-indent:0\"><span style=\"font-size:16px\">&nbsp;</span></p><p><span style=\"font-size:16px\">Unit 4</span></p><p class=\"MsoListParagraph\" style=\"margin-left:52px\"><span style=\"font-size:16px\">1.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">没有一个参赛者能追上那个不知疲倦的领跑者</span></p><p style=\"margin-left:52px\"><span style=\"font-size:16px;color:red\">None of the competitors could catch up with the untiring runner who was in the lead</span></p><p class=\"MsoListParagraph\" style=\"margin-left:52px\"><span style=\"font-size:16px\">2.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">球员们完全不在状态，结果以</span><span style=\"font-size:16px\">2:3</span><span style=\"font-size:16px;font-family: 宋体\">输掉了比赛</span></p><p class=\"MsoListParagraph\" style=\"margin-left:52px;text-indent:0\"><span style=\"font-size:16px;color:red\">The football team was not in the zone and lost the game with the score 2 to 3</span></p><p class=\"MsoListParagraph\" style=\"margin-left:52px\"><span style=\"font-size:16px\">3.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">如果你花很大的力气练习英语口语的话，迟早会取得好效果的。</span></p><p style=\"margin-left:52px\"><span style=\"font-size:16px;color:red\">If you make a great effort to practice your oral English,it will pay off in the long run</span></p><p class=\"MsoListParagraph\" style=\"margin-left:52px\"><span style=\"font-size:16px\">4.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">如果下雨，足球比赛将延期</span></p><p style=\"margin-left:52px\"><span style=\"font-size:16px;color:red\">In the event of rain,the football match will be postponed</span></p><p class=\"MsoListParagraph\" style=\"margin-left:52px\"><span style=\"font-size:16px\">5.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">决赛那天到来时，她十分紧张。能否取胜还是悬而未决的事</span></p><p style=\"margin-left:52px\"><span style=\"font-size:16px;color:red\">When the day of the finals arrived ,she was very nervous. Whether she could win or not was still up in the air.</span></p><p><br/></p>' , 1546343964 , 'Win 7' , '辽宁沈阳XX' , 0) [ RunTime:0.078214s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:59:43+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043843s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043318s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` LIMIT 1 [ RunTime:0.043581s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.046750s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:59:48+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043567s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043336s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` LIMIT 1 [ RunTime:0.043622s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.044701s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:59:49+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044504s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043331s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` [ RunTime:0.043748s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:59:53+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043637s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043362s ]
+[ sql ] [ SQL ] UPDATE `lt_menu`  SET `menu_view`=1  WHERE  `menu_id` = 8 [ RunTime:0.058627s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:59:54+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043653s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043342s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` [ RunTime:0.043728s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:59:56+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044153s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043284s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_id`  desc LIMIT 10 [ RunTime:0.065595s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.033077s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id asc [ RunTime:0.034017s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.043706s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.043393s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` WHERE  `ban_view` = 1 ORDER BY `ban_Id`  desc LIMIT 2 [ RunTime:0.043646s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.049508s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043742s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:59:58+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043969s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043372s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 ORDER BY art_id desc LIMIT 1 [ RunTime:0.043578s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043623s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043553s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043757s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T19:59:58+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.046602s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.032355s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 LIMIT 1 [ RunTime:0.013591s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=1  WHERE  `art_id` = 33 [ RunTime:0.124566s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:00:11+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044378s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.033222s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 ORDER BY art_id desc LIMIT 1 [ RunTime:0.043583s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043598s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043603s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.033277s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.023041s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:00:11+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043809s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043967s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 LIMIT 1 [ RunTime:0.032584s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=2  WHERE  `art_id` = 33 [ RunTime:0.061304s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:01:44+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043765s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043355s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 ORDER BY art_id desc LIMIT 1 [ RunTime:0.043584s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043662s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043527s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.022138s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:01:47+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044651s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.044013s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 LIMIT 1 [ RunTime:0.043582s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=3  WHERE  `art_id` = 33 [ RunTime:0.071495s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:01:49+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.046158s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.089726s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 ORDER BY art_id desc LIMIT 1 [ RunTime:0.043540s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043590s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043564s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.022801s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043499s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:01:49+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.036004s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043384s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 LIMIT 1 [ RunTime:0.043597s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=4  WHERE  `art_id` = 33 [ RunTime:0.058578s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:01:53+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044243s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043345s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 ORDER BY art_id desc LIMIT 1 [ RunTime:0.043559s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043554s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.032561s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043743s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:01:54+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043524s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043341s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 LIMIT 1 [ RunTime:0.043579s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=5  WHERE  `art_id` = 33 [ RunTime:0.068495s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:02:43+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044094s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043375s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 ORDER BY art_id desc LIMIT 1 [ RunTime:0.043568s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.032660s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.033064s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.044095s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043728s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:02:50+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043752s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043251s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` LIMIT 1 [ RunTime:0.043620s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.055738s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:02:52+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044198s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.044046s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0 [ RunTime:0.043609s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043363s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 LIMIT 1 [ RunTime:0.043570s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:03:11+08:00 ] [ error ] [2]unlink(/uploads/20190101/2e0e4121aa913548d32b9068dfa96cd6.jpg): No such file or directory
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033097s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043413s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_title`='english',`art_pid`=8,`art_keyword`='english',`art_remark`='english',`art_view`=2,`art_original`=1,`art_url`='',`art_author`='lin',`art_content`='<p><span style=\"font-size:16px\">Unit 1</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">1.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">众所周知，中国在</span><span style=\"font-size:16px\">2003</span><span style=\"font-size:16px;font-family: 宋体\">年成功地发射了第一艘载人宇宙飞船。</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px;text-indent:0\"><span style=\"font-size:16px;color:red\">As is know to all , the year 2003 saw the successful lauching of china&#39;s first manned spaceship.</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">2.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">时间见证了这所大学悠久的历史、自由的学术氛围和充满活力的学生生活。</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px;text-indent:0\"><span style=\"font-size:16px;color:red\">Time has witnessed the long history , free academic atmosphere and energetic students&#39; life of the university</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">3.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">中国在新世纪将发生重大而深远的变化。</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px;text-indent:0\"><span style=\"font-size:16px;color:red\">The new century will see a significant and far-reaching change in China.</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">4.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">南京这座古老的而美丽的城市见证过许多重大的历史事件。</span></p><p style=\"text-indent:24px\"><span style=\"font-size:16px;color:red\">Nanjing,an ancient and beautiful city,has witnessed many great historic events</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">5.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">重游青年时代曾经学习和工作的地方时，他回忆起许多美好的往事。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">A visit to the places where he had studied and worked during his youth brought back many fond memories.</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">&nbsp;</span></p><p><span style=\"font-size:16px\">Unit 2</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">1.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">观看激烈的足球比赛是让我忘却工作中一切烦恼的最佳途径。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">Watching exciting football games is the best way to take my mind off all the problems in my work</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">2.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">朋友们伤感的目送他开车离开，清楚地知道下次见面应该是很久之后了。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">Friends sadly watched his drive off,knowing it would be long before they could meet again</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">3.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">社区工作人员花了一个月的擦去那些曾经是城市印象的涂鸦。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">It took the community workers a month to wipe off the graffiti,which used to be a notable sight of the city.</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">4.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">在高海拔地区，人们用很多方法来阻挡紫外线。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">In high altitude areas,people use lots of ways to keep off ultraviolet rays</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">5.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">由于暴风雪，这个村子的水电供给都已经被切断了。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">This village’s water and power supplies have been cut off because of the snowstorm</span></p><p><span style=\"font-size:16px;color:red\">&nbsp;</span></p><p><span style=\"font-size:16px\">Unit 3</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">1.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">乡村音乐是当今美国最流行的音乐形式之一</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px;text-indent:0\"><span style=\"font-size:16px;color:red\">Country music is one of the most popular forms of music in the United Status today.</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">2.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">没有一种不幸可与失去时间相比</span></p><p style=\"text-indent:24px\"><span style=\"font-size:16px;color:red\">There is no other misfortune that could be compared with the loss of time</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">3.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">最忠实的朋友莫过于一本书</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px;text-indent:0\"><span style=\"font-size:16px;color:red\">There is no friend as loyal as a good book</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">4.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">在世界上其他任何地方，你都找不到与瑞士一样迷人的风景</span></p><p style=\"text-indent:24px\"><span style=\"font-size:16px;color:red\">Nowhere else in the world can you find scenery as attractive as in Switzerland</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">5.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px\">CD</span><span style=\"font-size:16px;font-family:宋体\">的音质胜过任何盒式录音带。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">No cassette tapes could rival CDs in terms of sound quality</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px;text-indent:0\"><span style=\"font-size:16px\">&nbsp;</span></p><p><span style=\"font-size:16px\">Unit 4</span></p><p class=\"MsoListParagraph\" style=\"margin-left:52px\"><span style=\"font-size:16px\">1.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">没有一个参赛者能追上那个不知疲倦的领跑者</span></p><p style=\"margin-left:52px\"><span style=\"font-size:16px;color:red\">None of the competitors could catch up with the untiring runner who was in the lead</span></p><p class=\"MsoListParagraph\" style=\"margin-left:52px\"><span style=\"font-size:16px\">2.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">球员们完全不在状态，结果以</span><span style=\"font-size:16px\">2:3</span><span style=\"font-size:16px;font-family: 宋体\">输掉了比赛</span></p><p class=\"MsoListParagraph\" style=\"margin-left:52px;text-indent:0\"><span style=\"font-size:16px;color:red\">The football team was not in the zone and lost the game with the score 2 to 3</span></p><p class=\"MsoListParagraph\" style=\"margin-left:52px\"><span style=\"font-size:16px\">3.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">如果你花很大的力气练习英语口语的话，迟早会取得好效果的。</span></p><p style=\"margin-left:52px\"><span style=\"font-size:16px;color:red\">If you make a great effort to practice your oral English,it will pay off in the long run</span></p><p class=\"MsoListParagraph\" style=\"margin-left:52px\"><span style=\"font-size:16px\">4.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">如果下雨，足球比赛将延期</span></p><p style=\"margin-left:52px\"><span style=\"font-size:16px;color:red\">In the event of rain,the football match will be postponed</span></p><p class=\"MsoListParagraph\" style=\"margin-left:52px\"><span style=\"font-size:16px\">5.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">决赛那天到来时，她十分紧张。能否取胜还是悬而未决的事</span></p><p style=\"margin-left:52px\"><span style=\"font-size:16px;color:red\">When the day of the finals arrived ,she was very nervous. Whether she could win or not was still up in the air.</span></p><p><br/></p>',`art_down`=0  WHERE  `art_id` = 33 [ RunTime:0.070201s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:03:14+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043947s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043180s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` LIMIT 1 [ RunTime:0.043637s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.055717s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:03:20+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.033971s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.032342s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_id`  desc LIMIT 10 [ RunTime:0.043599s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.023394s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id asc [ RunTime:0.043746s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.032719s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.043383s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` WHERE  `ban_view` = 1 ORDER BY `ban_Id`  desc LIMIT 2 [ RunTime:0.032652s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043385s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043721s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:03:22+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044391s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.046349s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 ORDER BY art_id desc LIMIT 1 [ RunTime:0.032529s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043566s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043603s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.045567s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043603s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:03:23+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.036284s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.033228s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 LIMIT 1 [ RunTime:0.034700s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=6  WHERE  `art_id` = 33 [ RunTime:0.075372s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:07:38+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044704s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043218s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_id`  desc LIMIT 10 [ RunTime:0.054614s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.043391s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id asc [ RunTime:0.043759s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.022620s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.043930s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` WHERE  `ban_view` = 1 ORDER BY `ban_Id`  desc LIMIT 2 [ RunTime:0.032453s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043489s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043734s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:07:44+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044462s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043351s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.043710s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043409s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0  AND `menu_view` = 1 [ RunTime:0.043584s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043592s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` WHERE  `art_pid` = 1 LIMIT 1 [ RunTime:0.043786s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_pid` = 1 ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.120711s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:07:47+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043695s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043359s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.043658s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043417s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0  AND `menu_view` = 1 [ RunTime:0.032559s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.032422s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` WHERE  `art_pid` = 8 LIMIT 1 [ RunTime:0.043412s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_pid` = 8 ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.043731s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:07:49+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044195s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043339s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_id`  desc LIMIT 10 [ RunTime:0.062637s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.043310s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id asc [ RunTime:0.043672s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.043754s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.044122s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` WHERE  `ban_view` = 1 ORDER BY `ban_Id`  desc LIMIT 2 [ RunTime:0.043617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043566s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.022607s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:07:51+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044077s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043325s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 ORDER BY art_id desc LIMIT 1 [ RunTime:0.043636s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043476s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043622s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043589s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.033103s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:07:52+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.045029s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043247s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 LIMIT 1 [ RunTime:0.032557s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=7  WHERE  `art_id` = 33 [ RunTime:0.070140s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:11:25+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044190s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_account` [ RunTime:0.043359s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_account` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.047590s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:11:32+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043793s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043300s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1 [ RunTime:0.013551s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_comment` [ RunTime:0.025096s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_comment` WHERE  (  com_view = 1 and com_artid != 0 ) LIMIT 1 [ RunTime:0.023500s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_comment` WHERE  (  com_view= 1 and com_artid = 0 ) LIMIT 1 [ RunTime:0.043688s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.023847s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1 [ RunTime:0.021730s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_member` [ RunTime:0.043827s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_member` LIMIT 1 [ RunTime:0.043718s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:11:34+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043915s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043301s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` LIMIT 1 [ RunTime:0.043635s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.055731s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:11:36+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043992s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043326s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0 [ RunTime:0.043655s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043516s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 LIMIT 1 [ RunTime:0.043268s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:12:01+08:00 ] [ error ] [2]unlink(/uploads/20190101/2e0e4121aa913548d32b9068dfa96cd6.jpg): No such file or directory
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043222s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043408s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_title`='翻译',`art_pid`=8,`art_keyword`='english',`art_remark`='english',`art_view`=2,`art_original`=1,`art_url`='',`art_author`='lin',`art_content`='<p><span style=\"font-size:16px\">Unit 1</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">1.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">众所周知，中国在</span><span style=\"font-size:16px\">2003</span><span style=\"font-size:16px;font-family: 宋体\">年成功地发射了第一艘载人宇宙飞船。</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px;text-indent:0\"><span style=\"font-size:16px;color:red\">As is know to all , the year 2003 saw the successful lauching of china&#39;s first manned spaceship.</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">2.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">时间见证了这所大学悠久的历史、自由的学术氛围和充满活力的学生生活。</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px;text-indent:0\"><span style=\"font-size:16px;color:red\">Time has witnessed the long history , free academic atmosphere and energetic students&#39; life of the university</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">3.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">中国在新世纪将发生重大而深远的变化。</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px;text-indent:0\"><span style=\"font-size:16px;color:red\">The new century will see a significant and far-reaching change in China.</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">4.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">南京这座古老的而美丽的城市见证过许多重大的历史事件。</span></p><p style=\"text-indent:24px\"><span style=\"font-size:16px;color:red\">Nanjing,an ancient and beautiful city,has witnessed many great historic events</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">5.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">重游青年时代曾经学习和工作的地方时，他回忆起许多美好的往事。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">A visit to the places where he had studied and worked during his youth brought back many fond memories.</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">&nbsp;</span></p><p><span style=\"font-size:16px\">Unit 2</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">1.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">观看激烈的足球比赛是让我忘却工作中一切烦恼的最佳途径。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">Watching exciting football games is the best way to take my mind off all the problems in my work</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">2.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">朋友们伤感的目送他开车离开，清楚地知道下次见面应该是很久之后了。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">Friends sadly watched his drive off,knowing it would be long before they could meet again</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">3.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">社区工作人员花了一个月的擦去那些曾经是城市印象的涂鸦。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">It took the community workers a month to wipe off the graffiti,which used to be a notable sight of the city.</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">4.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">在高海拔地区，人们用很多方法来阻挡紫外线。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">In high altitude areas,people use lots of ways to keep off ultraviolet rays</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">5.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">由于暴风雪，这个村子的水电供给都已经被切断了。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">This village’s water and power supplies have been cut off because of the snowstorm</span></p><p><span style=\"font-size:16px;color:red\">&nbsp;</span></p><p><span style=\"font-size:16px\">Unit 3</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">1.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">乡村音乐是当今美国最流行的音乐形式之一</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px;text-indent:0\"><span style=\"font-size:16px;color:red\">Country music is one of the most popular forms of music in the United Status today.</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">2.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">没有一种不幸可与失去时间相比</span></p><p style=\"text-indent:24px\"><span style=\"font-size:16px;color:red\">There is no other misfortune that could be compared with the loss of time</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">3.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">最忠实的朋友莫过于一本书</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px;text-indent:0\"><span style=\"font-size:16px;color:red\">There is no friend as loyal as a good book</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">4.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">在世界上其他任何地方，你都找不到与瑞士一样迷人的风景</span></p><p style=\"text-indent:24px\"><span style=\"font-size:16px;color:red\">Nowhere else in the world can you find scenery as attractive as in Switzerland</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px\"><span style=\"font-size:16px\">5.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px\">CD</span><span style=\"font-size:16px;font-family:宋体\">的音质胜过任何盒式录音带。</span></p><p style=\"margin-left:24px\"><span style=\"font-size:16px;color:red\">No cassette tapes could rival CDs in terms of sound quality</span></p><p class=\"MsoListParagraph\" style=\"margin-left:24px;text-indent:0\"><span style=\"font-size:16px\">&nbsp;</span></p><p><span style=\"font-size:16px\">Unit 4</span></p><p class=\"MsoListParagraph\" style=\"margin-left:52px\"><span style=\"font-size:16px\">1.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">没有一个参赛者能追上那个不知疲倦的领跑者</span></p><p style=\"margin-left:52px\"><span style=\"font-size:16px;color:red\">None of the competitors could catch up with the untiring runner who was in the lead</span></p><p class=\"MsoListParagraph\" style=\"margin-left:52px\"><span style=\"font-size:16px\">2.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">球员们完全不在状态，结果以</span><span style=\"font-size:16px\">2:3</span><span style=\"font-size:16px;font-family: 宋体\">输掉了比赛</span></p><p class=\"MsoListParagraph\" style=\"margin-left:52px;text-indent:0\"><span style=\"font-size:16px;color:red\">The football team was not in the zone and lost the game with the score 2 to 3</span></p><p class=\"MsoListParagraph\" style=\"margin-left:52px\"><span style=\"font-size:16px\">3.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">如果你花很大的力气练习英语口语的话，迟早会取得好效果的。</span></p><p style=\"margin-left:52px\"><span style=\"font-size:16px;color:red\">If you make a great effort to practice your oral English,it will pay off in the long run</span></p><p class=\"MsoListParagraph\" style=\"margin-left:52px\"><span style=\"font-size:16px\">4.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">如果下雨，足球比赛将延期</span></p><p style=\"margin-left:52px\"><span style=\"font-size:16px;color:red\">In the event of rain,the football match will be postponed</span></p><p class=\"MsoListParagraph\" style=\"margin-left:52px\"><span style=\"font-size:16px\">5.<span style=\"font:9px &#39;Times New Roman&#39;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span style=\"font-size:16px;font-family:宋体\">决赛那天到来时，她十分紧张。能否取胜还是悬而未决的事</span></p><p style=\"margin-left:52px\"><span style=\"font-size:16px;color:red\">When the day of the finals arrived ,she was very nervous. Whether she could win or not was still up in the air.</span></p><p><br/></p>',`art_down`=0  WHERE  `art_id` = 33 [ RunTime:0.049716s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:12:04+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043745s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043368s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` LIMIT 1 [ RunTime:0.043600s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.055682s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:17:54+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044133s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043357s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_id`  desc LIMIT 10 [ RunTime:0.054617s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.043414s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id asc [ RunTime:0.043742s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.043713s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.043392s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` WHERE  `ban_view` = 1 ORDER BY `ban_Id`  desc LIMIT 2 [ RunTime:0.043639s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043521s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043724s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:18:31+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044483s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043993s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` LIMIT 1 [ RunTime:0.043416s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_comment` [ RunTime:0.043846s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_comment` WHERE  (  com_view = 1 and com_artid != 0 ) LIMIT 1 [ RunTime:0.043495s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_comment` WHERE  (  com_view= 1 and com_artid = 0 ) LIMIT 1 [ RunTime:0.043582s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.043834s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_link` LIMIT 1 [ RunTime:0.043724s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_member` [ RunTime:0.043808s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_member` LIMIT 1 [ RunTime:0.033325s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:18:32+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044416s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043402s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` LIMIT 1 [ RunTime:0.043596s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.055742s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:18:34+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.047620s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043327s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0 [ RunTime:0.043630s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043477s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 LIMIT 1 [ RunTime:0.043561s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:18:55+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044195s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043902s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` LIMIT 1 [ RunTime:0.043420s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` `a` LEFT JOIN (select count(*) nums,com_artid from lt_comment group by com_artid) c ON `c`.`com_artid`=`a`.`art_id` ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.055618s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:19:01+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044518s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043355s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_id`  desc LIMIT 10 [ RunTime:0.054576s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_link` [ RunTime:0.043385s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_link` ORDER BY link_id asc [ RunTime:0.043600s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.043654s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_banner` [ RunTime:0.044115s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_banner` WHERE  `ban_view` = 1 ORDER BY `ban_Id`  desc LIMIT 2 [ RunTime:0.043567s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043483s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.032615s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:19:04+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043905s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043975s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 ORDER BY art_id desc LIMIT 1 [ RunTime:0.032598s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043462s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043545s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043560s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.021739s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:19:04+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043758s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.044021s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 LIMIT 1 [ RunTime:0.043374s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=8  WHERE  `art_id` = 33 [ RunTime:0.070819s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:24:29+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044505s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043402s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 18 ORDER BY art_id desc LIMIT 1 [ RunTime:0.043310s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<18 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.054496s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>18 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043659s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043484s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043764s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:24:29+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.027649s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.032344s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 18 LIMIT 1 [ RunTime:0.043551s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=104  WHERE  `art_id` = 18 [ RunTime:0.069552s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:24:33+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044351s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043314s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 14 ORDER BY art_id desc LIMIT 1 [ RunTime:0.043606s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<14 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043608s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>14 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043636s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043482s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043714s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:24:34+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.047449s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043381s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 14 LIMIT 1 [ RunTime:0.043575s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=66  WHERE  `art_id` = 14 [ RunTime:0.061657s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:24:43+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044315s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.043382s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.043660s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043419s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0  AND `menu_view` = 1 [ RunTime:0.043627s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043644s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` WHERE  `art_pid` = 1 LIMIT 1 [ RunTime:0.043888s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_pid` = 1 ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.296741s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:25:20+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.043913s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.049378s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` ORDER BY `art_hit`  desc LIMIT 6 [ RunTime:0.043629s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043378s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_menu` WHERE  `menu_parent` = 0  AND `menu_view` = 1 [ RunTime:0.043651s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.043626s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `lt_article` WHERE  `art_pid` = 8 LIMIT 1 [ RunTime:0.043922s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_pid` = 8 ORDER BY art_id desc LIMIT 0,10 [ RunTime:0.043576s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:25:23+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.044539s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.039070s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 ORDER BY art_id desc LIMIT 1 [ RunTime:0.044854s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id<33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043629s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  (  art_id>33 ) ORDER BY art_id desc LIMIT 1 [ RunTime:0.043611s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_menu` [ RunTime:0.043513s ]
+[ sql ] [ SQL ] SELECT `menu_id`,`menu_name` FROM `lt_menu` [ RunTime:0.046731s ]
+
+---------------------------------------------------------------
+[ 2019-01-01T20:25:23+08:00 ] [ sql ] [ DB ] CONNECT:[ UseTime:0.045978s ] mysql:dbname=lhblog;host=139.199.109.135;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `lt_article` [ RunTime:0.033184s ]
+[ sql ] [ SQL ] SELECT * FROM `lt_article` WHERE  `art_id` = 33 LIMIT 1 [ RunTime:0.043734s ]
+[ sql ] [ SQL ] UPDATE `lt_article`  SET `art_hit`=9  WHERE  `art_id` = 33 [ RunTime:0.066755s ]
+
+---------------------------------------------------------------

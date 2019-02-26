@@ -1,0 +1,59 @@
+{include file="public/header"}
+<article>
+  <div class="banner">
+    <div id="sucaihuo" class="fader">
+      {volist name="resBanner" id="vo"}
+      <img class="slide" src="{$vo.ban_img}">
+      {/volist}
+      <div class="fader_controls">
+        <div class="page prev" data-target="prev">&lsaquo;</div>
+        <div class="page next" data-target="next">&rsaquo;</div>
+        <ul class="pager_list">
+        </ul>
+      </div>
+    </div>
+    <script>
+$(function() {
+	$('#sucaihuo').easyFader();
+});
+</script>
+  </div>
+  <div class="newblogs">
+    <h2 class="hometitle">最新文章</h2>
+    <ul>
+      {volist name="res" id="vo"}
+      <li>
+        <h3 class="blogtitle"><span><a href="{:url('Article/lists',['id'=>$vo.art_pid])}" target="_blank"  class="classname">{$menuName[$vo.art_pid]}</a></span><a href="{:url('detail/index',['id'=>$vo.art_id])}" target="_blank" >{$vo.art_title}</a></h3>
+        <div class="bloginfo"><span class="blogpic"><a href="{:url('detail/index',['id'=>$vo.art_id])}"><img src="{$vo.art_img}" /></a></span>
+          <p>{$vo.art_remark| msubstr=0,70,'utf-8',false}...</p>
+        </div>
+        <div class="autor"><span class="lm f_l"></span><span class="dtime f_l">{$vo.art_addtime|date="y-m-d",###}</span><span class="viewnum f_l">浏览（<a href="/">{$vo.art_hit}</a>）</span><span class="f_r"><a href="{:url('detail/index',['id'=>$vo.art_id])}" class="more">阅读原文>></a></span></div>
+        <div class="line"></div>
+      </li>
+      {/volist}
+
+    </ul>
+  </div>
+  <div class="rbox">
+
+    <div class="paihang">
+      <h2 class="hometitle">热度排行</h2>
+      <ul>
+        {volist name="hit" id="vo"}
+        <li><b><a href="{:url('detail/index',['id'=>$vo.art_id])}" target="_blank">{$vo.art_title}</a></b>
+          <p><i><img src="{$vo.art_img}"  /></i>{$vo.art_remark| msubstr=0,35,'utf-8',false}...</p>
+        </li>
+        {/volist}
+      </ul>
+    </div>
+    <div class="links">
+      <h2 class="hometitle">友情链接</h2>
+      <ul>
+        {volist name="resByLinks" id="vo"}
+        <li><a href="{$vo.link_url}">{$vo.link_content}</a></li>
+       {/volist}
+      </ul>
+    </div>
+  </div>
+</article>
+{include file="public/footer"}

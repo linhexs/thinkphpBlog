@@ -1,0 +1,50 @@
+{include file="public/header"}
+<link href="/static/home/css/active.css" rel="stylesheet">
+<article>
+  <h2 class="litle"><span>不要轻易放弃。学习成长的路上，我们长路漫漫，只因学无止境。</span>学无止境</h2>
+  <div class="navtab">
+    <div class="search">
+      <form action="{:url('Article/lists')}" method="get" id="searchform">
+        <input name="keyboard" id="keyboard" class="input_text" value="请输入关键字" style="color: rgb(153, 153, 153);" onfocus="if(value=='请输入关键字'){this.style.color='#000';value=''}" onblur="if(value==''){this.style.color='#999';value='请输入关键字'}" type="text">
+        <input name="Submit" class="input_submit" value="搜索" type="submit">
+      </form>
+    </div>
+    <ul class="navlist" id="pageContent">
+      <?php if(!empty($id['id'])):?>
+      {volist name="resByMenu" id="vo"}
+      <li {if condition = "$vo.menu_id eq $id['id']"}id="pagecurrent"{/if}><a href="{:url('Article/lists',['id'=>$vo.menu_id])}">{$vo.menu_name}</a></li>
+      {/volist}
+      <?php endif;?>
+    </ul>
+  </div>
+  <div class="newblogs">
+    <h2 class="hometitle">文章列表 </h2>
+    <ul>
+      {volist name="resByList" id="vo"}
+      <li>
+        <h3 class="blogtitle"><span><a href="{:url('Article/lists',['id'=>$vo.art_pid])}" title="css3" target="_blank"  class="classname">{$menuName[$vo.art_pid]}</a></span><a href="{:url('detail/index',['id'=>$vo.art_id])}" target="_blank" >{$vo.art_title}</a></h3>
+        <div class="bloginfo"><span class="blogpic"><a href="{:url('detail/index',['id'=>$vo.art_id])}" ><img src="{$vo.art_img}"/></a></span>
+          <p>{$vo.art_remark| msubstr=0,70,'utf-8',false}...</p>
+        </div>
+        <div class="autor"><span class="lm f_l"></span><span class="dtime f_l">{$vo.art_addtime|date="y-m-d",###}</span><span class="viewnum f_l">浏览（<a href="/">{$vo.art_hit}</a>）</span><span class="f_r"><a href="{:url('detail/index',['id'=>$vo.art_id])}" class="more">阅读原文>></a></span></div>
+        <div class="line"></div>
+      </li>
+      {/volist}
+    </ul>
+    {$resByList->render()}
+  </div>
+  <div class="rbox">
+    <div class="paihang">
+      <h2 class="hometitle">点击排行</h2>
+      <ul>
+        {volist name="hit" id="vo"}
+        <li><b><a href="{:url('detail/index',['id'=>$vo.art_id])}" target="_blank">{$vo.art_title}</a></b>
+          <p><i><img src="{$vo.art_img}"  /></i>{$vo.art_remark| msubstr=0,35,'utf-8',false}...</p>
+        </li>
+      {/volist}
+      </ul>
+    </div>
+  </div>
+
+</article>
+{include file="public/footer"}

@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* 共用css */
+* { margin: 0; padding: 0 }
+#pagecurrent{
+    background: #1f7d6a;
+}
